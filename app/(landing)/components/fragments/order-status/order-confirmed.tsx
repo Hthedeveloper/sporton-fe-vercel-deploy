@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const OrderConfirmed = () => {
   return (
-    <div className="bg-white w-[641px] h-[392x] p-16 flex flex-col justify-center items-center">
+    <div className="bg-white w-[641px] h-[392px] p-16 flex flex-col justify-center items-center">
       {/* Icon */}
       <div className="w-[117px] h-[117px] bg-green-100 rounded-full relative">
         <Image

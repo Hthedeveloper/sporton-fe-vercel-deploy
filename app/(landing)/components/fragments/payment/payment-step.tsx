@@ -19,11 +19,7 @@ const PaymentStep = () => {
     (total, item) => total + item.price * item.qty,
     0,
   );
-
-  const handleUploadAndConfirm = () => {
-    push("/order-status/123123123");
-  };
-
+  
   const handleConfirmPayment = async () => {
     if (!file) {
       alert("Please upload your file first");

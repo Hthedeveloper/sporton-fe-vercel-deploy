@@ -17,7 +17,7 @@ const OrderStatus = async ({ params }: TPageProps) => {
         </h1>
         {transaction.status === 'pending' && <OrderSubmitted />}
         {transaction.status === 'paid' && <OrderConfirmed />}
-        {transaction.status === 'paid' && <OrderRejected />}
+        {transaction.status === 'failed' && <OrderRejected />}
        
       </div>
     </main>
