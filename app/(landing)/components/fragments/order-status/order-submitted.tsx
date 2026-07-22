@@ -1,3 +1,5 @@
+"use client"
+
 import { FiRefreshCw } from "react-icons/fi";
 import Button from "../../elements/Button";
 import Image from "next/image";
